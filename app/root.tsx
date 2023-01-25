@@ -16,9 +16,8 @@ export const meta: MetaFunction = () => ({
 
 export const links: LinksFunction = () => [
 	{
-		rel: "icon",
-		type: "image/x-icon",
 		href: "/static/favicon.ico",
+		rel: "icon",
 	},
 ];
 
