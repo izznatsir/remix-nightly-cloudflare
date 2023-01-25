@@ -2,10 +2,10 @@ lockfileVersion: 5.4
 
 specifiers:
   '@cloudflare/workers-types': ^3.19.0
-  '@remix-run/cloudflare': 0.0.0-nightly-c9ff7ef-20230125
-  '@remix-run/cloudflare-pages': 0.0.0-nightly-c9ff7ef-20230125
-  '@remix-run/dev': 0.0.0-nightly-c9ff7ef-20230125
-  '@remix-run/react': 0.0.0-nightly-c9ff7ef-20230125
+  '@remix-run/cloudflare': 0.0.0-nightly-c08f30f-20230123
+  '@remix-run/cloudflare-pages': 0.0.0-nightly-c08f30f-20230123
+  '@remix-run/dev': 0.0.0-nightly-c08f30f-20230123
+  '@remix-run/react': 0.0.0-nightly-c08f30f-20230123
   '@types/react': ^18.0.27
   '@types/react-dom': ^18.0.10
   concurrently: ^7.6.0
@@ -15,15 +15,15 @@ specifiers:
   wrangler: ^2.8.1
 
 dependencies:
-  '@remix-run/cloudflare': 0.0.0-nightly-c9ff7ef-20230125_3aj2hlnru2coifkh7o3itcdmie
-  '@remix-run/cloudflare-pages': 0.0.0-nightly-c9ff7ef-20230125_3aj2hlnru2coifkh7o3itcdmie
-  '@remix-run/react': 0.0.0-nightly-c9ff7ef-20230125_biqbaboplfbrettd7655fr4n2y
+  '@remix-run/cloudflare': 0.0.0-nightly-c08f30f-20230123_pppzqxbuosu2y42d4woz36b4ke
+  '@remix-run/cloudflare-pages': 0.0.0-nightly-c08f30f-20230123_pppzqxbuosu2y42d4woz36b4ke
+  '@remix-run/react': 0.0.0-nightly-c08f30f-20230123_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
   '@cloudflare/workers-types': 3.19.0
-  '@remix-run/dev': 0.0.0-nightly-c9ff7ef-20230125
+  '@remix-run/dev': 0.0.0-nightly-c08f30f-20230123_biqbaboplfbrettd7655fr4n2y
   '@types/react': 18.0.27
   '@types/react-dom': 18.0.10
   concurrently: 7.6.0
@@ -1735,33 +1735,39 @@ packages:
       json-parse-even-better-errors: 2.3.1
     dev: true
 
-  /@remix-run/cloudflare-pages/0.0.0-nightly-c9ff7ef-20230125_3aj2hlnru2coifkh7o3itcdmie:
-    resolution: {integrity: sha512-kJJwdKptWwxsaxjOBJ0V/4+LeVqouJ7uv/J7GHGCYivDPr3avbBv+l+gX2rdkK146ffIgiTJjCcoTMRJL7zvag==}
+  /@remix-run/cloudflare-pages/0.0.0-nightly-c08f30f-20230123_pppzqxbuosu2y42d4woz36b4ke:
+    resolution: {integrity: sha512-xMD9S3L1iKTzXFJpgi0Iy2y0PYEAI/7XXbp5EFDivqnQNsanp1c96lyOlDF1WTpjJAUg8qoxlGCi9CYnryYkOA==}
     engines: {node: '>=14'}
     peerDependencies:
       '@cloudflare/workers-types': ^3.0.0
     dependencies:
       '@cloudflare/workers-types': 3.19.0
-      '@remix-run/cloudflare': 0.0.0-nightly-c9ff7ef-20230125_3aj2hlnru2coifkh7o3itcdmie
+      '@remix-run/cloudflare': 0.0.0-nightly-c08f30f-20230123_pppzqxbuosu2y42d4woz36b4ke
+    transitivePeerDependencies:
+      - react
+      - react-dom
     dev: false
 
-  /@remix-run/cloudflare/0.0.0-nightly-c9ff7ef-20230125_3aj2hlnru2coifkh7o3itcdmie:
-    resolution: {integrity: sha512-tC1TaxnQikGfbXjhluNrWdSu35CFriOvZ3/32QXZkmhsqhIGjEPjqt9lqGm+dTHyAabi/Wbe8eAUY0UX/olpUQ==}
+  /@remix-run/cloudflare/0.0.0-nightly-c08f30f-20230123_pppzqxbuosu2y42d4woz36b4ke:
+    resolution: {integrity: sha512-WxuneeetxxJSIBBgN1jLBiQWU3e9CMpybZnrzSlZ/vUNXOstmwEayF2TVbr5Qgud6mi8IZ1mVaK7nlhbDX9PUg==}
     engines: {node: '>=14'}
     peerDependencies:
       '@cloudflare/workers-types': ^2.0.0 || ^3.0.0
     dependencies:
       '@cloudflare/kv-asset-handler': 0.1.3
       '@cloudflare/workers-types': 3.19.0
-      '@remix-run/server-runtime': 0.0.0-nightly-c9ff7ef-20230125
+      '@remix-run/server-runtime': 0.0.0-nightly-c08f30f-20230123_biqbaboplfbrettd7655fr4n2y
+    transitivePeerDependencies:
+      - react
+      - react-dom
     dev: false
 
-  /@remix-run/dev/0.0.0-nightly-c9ff7ef-20230125:
-    resolution: {integrity: sha512-M3DD1iVrcCc1YBNL6Sl47qV3pa6fCDxcnoKaD5MGxU3xocQfDQ51uzgc9uKfQTWEMPDTY2r3CqNyn4FqewK/4g==}
+  /@remix-run/dev/0.0.0-nightly-c08f30f-20230123_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-Og4U8gvPxPQ9csS+Pu0e9FJcNSHuuzEEEUAWNqcWEdtkYuVoeJ/TwiJF8VBDLnw37ami9RPBvWmTEN1OqPXVGg==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
-      '@remix-run/serve': 0.0.0-nightly-c9ff7ef-20230125
+      '@remix-run/serve': 0.0.0-nightly-c08f30f-20230123
     peerDependenciesMeta:
       '@remix-run/serve':
         optional: true
@@ -1777,7 +1783,7 @@ packages:
       '@babel/types': 7.20.7
       '@esbuild-plugins/node-modules-polyfill': 0.1.4_esbuild@0.16.3
       '@npmcli/package-json': 2.0.0
-      '@remix-run/server-runtime': 0.0.0-nightly-c9ff7ef-20230125
+      '@remix-run/server-runtime': 0.0.0-nightly-c08f30f-20230123_biqbaboplfbrettd7655fr4n2y
       '@vanilla-extract/integration': 6.0.2
       arg: 5.0.2
       cacache: 15.3.0
@@ -1803,7 +1809,6 @@ packages:
       ora: 5.4.1
       postcss: 8.4.21
       postcss-discard-duplicates: 5.1.0_postcss@8.4.21
-      postcss-load-config: 4.0.1_postcss@8.4.21
       postcss-modules: 6.0.0_postcss@8.4.21
       prettier: 2.7.1
       pretty-ms: 7.0.1
@@ -1821,38 +1826,43 @@ packages:
       - bluebird
       - bufferutil
       - encoding
+      - react
+      - react-dom
       - supports-color
-      - ts-node
       - utf-8-validate
     dev: true
 
-  /@remix-run/react/0.0.0-nightly-c9ff7ef-20230125_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-dFqSBiaSuvG/0A/9TVGzj2/cOzNOhYradYahT23KVBE2RKqar15HyjcI/97R0mpQBl3Bb0IVcKfnP/sfn049Tw==}
+  /@remix-run/react/0.0.0-nightly-c08f30f-20230123_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-jG4PQqjjUcMn5Z3xjnciy2iD3jy/OqweYbhlpOjRWc05W0xtYCIV4+bAnuq79SXFKCwTX5VUbTBcRq9t7EXn3w==}
     engines: {node: '>=14'}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
     dependencies:
-      '@remix-run/router': 1.3.1-pre.0
+      '@remix-run/router': 1.3.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      react-router-dom: 6.8.0-pre.1_biqbaboplfbrettd7655fr4n2y
+      react-router-dom: 6.7.0_biqbaboplfbrettd7655fr4n2y
       use-sync-external-store: 1.2.0_react@18.2.0
     dev: false
 
-  /@remix-run/router/1.3.1-pre.0:
-    resolution: {integrity: sha512-vJs8gtvb4GYBIV6zSldTrDU85UrlKVQSSoKBX0vYlidBSxcVxE5qrXRUA63DKoRO3VNv0x3eJL0qzpvaK+08Uw==}
+  /@remix-run/router/1.3.0:
+    resolution: {integrity: sha512-nwQoYb3m4DDpHTeOwpJEuDt8lWVcujhYYSFGLluC+9es2PyLjm+jjq3IeRBQbwBtPLJE/lkuHuGHr8uQLgmJRA==}
     engines: {node: '>=14'}
 
-  /@remix-run/server-runtime/0.0.0-nightly-c9ff7ef-20230125:
-    resolution: {integrity: sha512-CTD3Cj5V11aKCW7keJec6yvaisOcGnpVECpKu5Bt/mWg2MzZXKawHtpSSwRqU5WQvZ3ohUPmYQ5iLj+cfIuilA==}
+  /@remix-run/server-runtime/0.0.0-nightly-c08f30f-20230123_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-ZKi+EJKk3EXXWqq2cBLuvhRkK76GLBE8xRpB6Zl14zl3b24ynKIf/k5/cu7JYPprhy/5je1IYHKqe5Cqm2mnJQ==}
     engines: {node: '>=14'}
+    peerDependencies:
+      react: '>=16.8'
+      react-dom: '>=16.8'
     dependencies:
-      '@remix-run/router': 1.3.1-pre.0
+      '@remix-run/router': 1.3.0
       '@types/cookie': 0.4.1
-      '@types/react': 18.0.27
       '@web3-storage/multipart-parser': 1.0.0
       cookie: 0.4.2
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
       set-cookie-parser: 2.5.1
       source-map: 0.7.4
 
@@ -1974,6 +1984,7 @@ packages:
 
   /@types/prop-types/15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
+    dev: true
 
   /@types/react-dom/18.0.10:
     resolution: {integrity: sha512-E42GW/JA4Qv15wQdqJq8DL4JhNpB3prJgjgapN3qJT9K2zO5IIAQh4VXvCEDupoqAwnz0cY4RlXeC/ajX5SFHg==}
@@ -1987,6 +1998,7 @@ packages:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
       csstype: 3.1.1
+    dev: true
 
   /@types/responselike/1.0.0:
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
@@ -1996,6 +2008,7 @@ packages:
 
   /@types/scheduler/0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
+    dev: true
 
   /@types/stack-trace/0.0.29:
     resolution: {integrity: sha512-TgfOX+mGY/NyNxJLIbDWrO9DjGoVSW9+aB8H2yy1fy32jsvxijhmyJI9fDFgvz3YP4lvJaq9DzdR/M1bOgVc9g==}
@@ -2595,6 +2608,7 @@ packages:
 
   /csstype/3.1.1:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
+    dev: true
 
   /data-uri-to-buffer/3.0.1:
     resolution: {integrity: sha512-WboRycPNsVw3B3TL559F7kuBUM4d8CgMEvk6xEJlOp7OBPjt6G7z8WMWlD2rOFZLk6OYfFIUGsCOWzcQH9K2og==}
@@ -3869,11 +3883,6 @@ packages:
       type-check: 0.3.2
     dev: true
 
-  /lilconfig/2.0.6:
-    resolution: {integrity: sha512-9JROoBW7pobfsx+Sq2JsASvCo6Pfo6WWoUW79HuB1BCoBXD4PLWJPqDF6fNj67pqBYTbAHkE57M1kS/+L1neOg==}
-    engines: {node: '>=10'}
-    dev: true
-
   /loader-utils/2.0.4:
     resolution: {integrity: sha512-xXqpXoINfFhgua9xiqD8fPFHgkoq1mmmpE92WlDbm9rNRd/EbRb+Gqf908T2DMfuHjjJlksiK2RbHVOdD/MqSw==}
     engines: {node: '>=8.9.0'}
@@ -3924,7 +3933,6 @@ packages:
     hasBin: true
     dependencies:
       js-tokens: 4.0.0
-    dev: false
 
   /lowercase-keys/2.0.0:
     resolution: {integrity: sha512-tqNXrS78oMOE73NMxK4EMLQsQowWf8jKooH9g7xPavRT706R6bkQJ6DY2Te7QukaZsulxa30wQ7bk0pm4XiHmA==}
@@ -4862,23 +4870,6 @@ packages:
       postcss: 8.4.21
     dev: true
 
-  /postcss-load-config/4.0.1_postcss@8.4.21:
-    resolution: {integrity: sha512-vEJIc8RdiBRu3oRAI0ymerOn+7rPuMvRXslTvZUKZonDHFIczxztIyJ1urxM1x9JXEikvpWWTUUqal5j/8QgvA==}
-    engines: {node: '>= 14'}
-    peerDependencies:
-      postcss: '>=8.0.9'
-      ts-node: '>=9.0.0'
-    peerDependenciesMeta:
-      postcss:
-        optional: true
-      ts-node:
-        optional: true
-    dependencies:
-      lilconfig: 2.0.6
-      postcss: 8.4.21
-      yaml: 2.2.1
-    dev: true
-
   /postcss-modules-extract-imports/3.0.0_postcss@8.4.21:
     resolution: {integrity: sha512-bdHleFnP3kZ4NYDhuGlVK+CMrQ/pqUm8bx/oGL93K6gVwiclvX5x0n76fYMKuIGKzlABOy13zsvqjb0f92TEXw==}
     engines: {node: ^10 || ^12 || >= 14}
@@ -5081,28 +5072,27 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
-    dev: false
 
-  /react-router-dom/6.8.0-pre.1_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-rWwc8sZ0sai1tTU6hyivaXsuTu530yLGRFQEOSTMd861J1wJlSwuhFVrZgL2o37t78bvaJuGXO71xIuXD3717Q==}
+  /react-router-dom/6.7.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-jQtXUJyhso3kFw430+0SPCbmCmY1/kJv8iRffGHwHy3CkoomGxeYzMkmeSPYo6Egzh3FKJZRAL22yg5p2tXtfg==}
     engines: {node: '>=14'}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
     dependencies:
-      '@remix-run/router': 1.3.1-pre.0
+      '@remix-run/router': 1.3.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      react-router: 6.8.0-pre.1_react@18.2.0
+      react-router: 6.7.0_react@18.2.0
     dev: false
 
-  /react-router/6.8.0-pre.1_react@18.2.0:
-    resolution: {integrity: sha512-CJo6EWpNPpm7aNl+IF623zdPV6frYjLjZ75yQXQs53QJbXVgX66FL4Bduq1hsCxKtXj0EW6U/LAEmrmRu6Vsyw==}
+  /react-router/6.7.0_react@18.2.0:
+    resolution: {integrity: sha512-KNWlG622ddq29MAM159uUsNMdbX8USruoKnwMMQcs/QWZgFUayICSn2oB7reHce1zPj6CG18kfkZIunSSRyGHg==}
     engines: {node: '>=14'}
     peerDependencies:
       react: '>=16.8'
     dependencies:
-      '@remix-run/router': 1.3.1-pre.0
+      '@remix-run/router': 1.3.0
       react: 18.2.0
     dev: false
 
@@ -5111,7 +5101,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
-    dev: false
 
   /readable-stream/1.1.14:
     resolution: {integrity: sha512-+MeVjFf4L44XUkhM1eYbD8fyEsxcV81pqMSR5gblfcLCHfZvbrqy4/qYHE+/R5HoBUT11WV5O08Cr1n3YXkWVQ==}
@@ -5351,7 +5340,6 @@ packages:
     resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
     dependencies:
       loose-envify: 1.4.0
-    dev: false
 
   /selfsigned/2.1.1:
     resolution: {integrity: sha512-GSL3aowiF7wa/WtSFwnUrludWFoNhftq8bUkH9pkzjpN2XSPOAYEgg6e0sS9s0rZwgJzJiQRPU18A6clnoW5wQ==}
@@ -6124,11 +6112,6 @@ packages:
 
   /yallist/4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
-    dev: true
-
-  /yaml/2.2.1:
-    resolution: {integrity: sha512-e0WHiYql7+9wr4cWMx3TVQrNwejKaEe7/rHNmQmqRjazfOP5W8PB6Jpebb5o6fIapbz9o9+2ipcaTM2ZwDI6lw==}
-    engines: {node: '>= 14'}
     dev: true
 
   /yargs-parser/21.1.1:

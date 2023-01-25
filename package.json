@@ -5,18 +5,18 @@
 		"build": "remix build",
 		"dev": "remix build && concurrently \"pnpm:dev:*\"",
 		"dev:remix": "remix dev",
-		"dev:wrangler": "wrangler pages dev --proxy 3010"
+		"dev:wrangler": "wrangler pages dev ./public"
 	},
 	"dependencies": {
-		"@remix-run/cloudflare": "0.0.0-nightly-c9ff7ef-20230125",
-		"@remix-run/cloudflare-pages": "0.0.0-nightly-c9ff7ef-20230125",
-		"@remix-run/react": "0.0.0-nightly-c9ff7ef-20230125",
+		"@remix-run/cloudflare": "0.0.0-nightly-c08f30f-20230123",
+		"@remix-run/cloudflare-pages": "0.0.0-nightly-c08f30f-20230123",
+		"@remix-run/react": "0.0.0-nightly-c08f30f-20230123",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "^3.19.0",
-		"@remix-run/dev": "0.0.0-nightly-c9ff7ef-20230125",
+		"@remix-run/dev": "0.0.0-nightly-c08f30f-20230123",
 		"@types/react": "^18.0.27",
 		"@types/react-dom": "^18.0.10",
 		"concurrently": "^7.6.0",
