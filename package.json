@@ -5,7 +5,7 @@
 		"build": "remix build",
 		"dev": "remix build && concurrently \"pnpm:dev:*\"",
 		"dev:remix": "remix dev",
-		"dev:wrangler": "wrangler pages dev --proxy 3010"
+		"dev:wrangler": "wrangler pages dev ./public"
 	},
 	"dependencies": {
 		"@remix-run/cloudflare": "0.0.0-nightly-c9ff7ef-20230125",
